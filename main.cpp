@@ -2,6 +2,7 @@
 
 #include "Palindrome.h"
 #include "Words.h"
+#include "Sorter.h"
 #include <iostream>
 using namespace std;
 
@@ -11,7 +12,7 @@ int main()
 {
 	do
 	{
-		SimpleApp* app = new Words();
+		SimpleApp* app = new Sorter();
 		app->Run();
 		delete app;
 	} while (ShouldRunAgain());
