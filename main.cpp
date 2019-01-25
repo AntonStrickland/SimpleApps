@@ -1,6 +1,7 @@
 // Programmer: Anton Strickland
 
 #include "Palindrome.h"
+#include "Words.h"
 #include <iostream>
 using namespace std;
 
@@ -10,7 +11,7 @@ int main()
 {
 	do
 	{
-		SimpleApp* app = new Palindrome();
+		SimpleApp* app = new Words();
 		app->Run();
 		delete app;
 	} while (ShouldRunAgain());
